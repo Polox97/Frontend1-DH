@@ -1,5 +1,59 @@
+header{
+    background-color: #ddd;
+    text-align: center;
+}
+
+.perfil{
+    margin-top: 30px;
+    border-radius: 50%;
+}
+
 body{
     font-family: Calibri, Arial, Helvetica, sans-serif;
+    background-color: white;
     margin: 0;
+}
+
+main{
+    margin: 50px auto;
+    max-width: 800px;  
+}
+
+section{
+    margin-top: 50px;
+}
+
+h1{
+    font-family: Cambria, Times, serif;
+    text-align: center;
+    text-transform: uppercase;
+    background-color: #BFBFBF;
+    color: #1F497D;
+}
+
+h2{
+    font-family: Cambria, Times, serif;;
+    background-color: #BFBFBF;
+    color: #632423;
+}
+
+ul,dl{
+    margin-left: 40px;
+}
+
+span{
+    font-weight: bold;
+}
+
+footer{
+    text-align: center;
+    font-size: 25px;
+    padding: 5px 0;
+    background-color: #1F497D;
+    color: #ddd;
+}
+
+a img{
+    width: 20px;
 }
 
