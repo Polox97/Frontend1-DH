@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+a:link, a:visited, a:active{
+    color: #FFFFFF;
+    text-decoration:none;
+}
+
+header{
+    width: 100%;
+    color: #F3F3F3;
+    background: #222222;
+}
+
+.cabecera{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 25px;
+    font-weight: 400;
+}
+
+
+.cabecera p{
+    margin-left: 40px;
+}
+
+.cabecera .conf{
+    display: flex;
+    margin-right: 40px;
+}
+
+.menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    background: #F0A83E;
+}
+
+nav{
+    width: 60%;
+}
+
+nav ul li a {
+    padding: 40px;
+    transition: 0.2s;
+}
+
+nav ul li a:hover{ 
+    color: grey;
+}
+
+.icons{
+    display: flex;
+    font-size: 25px;
+}
+
+.fa-bars{
+    visibility: hidden;
+}
+
+.fa-bars:hover{
+    color: grey;
+}
+
+.logo img{
+    height: 20px;
+}
+
+.logo{
+    font-weight: 700;
+    display: flex;
+}
+
+.logo span{
+    color: #3C2313;
+}
+
+.items{
+    display: flex;
+    flex-direction: row;
+}
+
+main{
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    height: 555px;
+    background: url("../img/bowl-and-pet-daities-on-green-background\ 1.png"), -webkit-linear-gradient(top, #cbe3ba, #a6cc8b);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+main .cont{
+    text-align: right;
+    padding: 150px 100px 0 0;
+}
+
+main .cont h1{
+    background: #FFFFFF;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 35px;
+    font-weight: 400;
+}
+
+main .cont h2{
+    color: #FFFFFF;
+    margin: 20px 0 40px 0;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+main .cont a{
+    background: #F0A83E;
+    border-radius: 5px;
+    margin-top: 20px;
+    padding: 20px;
+}
+
+footer{
+    width: 100%;
+    height: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FFFFFF;
+    font-weight: 700;
+    background: #222222;
+}
+
+@media (max-width: 800px){
+    main{
+        display: flex;
+        justify-content: center;
+    }
+    
+    main .cont{
+        text-align: center;
+        padding: 150px;
+    }
+    nav, .icons{
+        visibility: hidden;
+    }
+
+    .fa-bars{
+        visibility:initial;
+    }
+    .logo{
+        margin-left: 50px;
+    }
+}
+
